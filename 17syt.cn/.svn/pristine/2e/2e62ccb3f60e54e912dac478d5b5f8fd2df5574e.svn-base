@@ -1,0 +1,942 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>{dede:global.cfg_webname/}</title>
+    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+    <meta name="description" content="{dede:global.cfg_description/}" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-
+
+scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="copyright" content="Copyright 事业通 版权所有" />
+    <link href="{dede:global.cfg_templeturl/}/Content/bootstrap.min.css" rel="stylesheet" 
+
+/>
+    
+    <link href="{dede:global.cfg_templeturl/}/Content/index.min.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="{dede:global.cfg_templeturl/}/Scripts/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="{dede:global.cfg_templeturl/}/Scripts/jquery.min.js"></script>
+    <script src="{dede:global.cfg_templeturl/}/Scripts/index.min.js"></script>
+</head>
+
+<body>
+<header class="header">
+    <div class="header-body">
+        <div class="logo">
+            <img src="{dede:global.cfg_templeturl/}/Picture/logo.png" alt="{dede:global.cfg_webname/}" class="img-responsive" />
+            <strong class="words">聚合·共享</strong>
+            <div class="clearfix"></div>
+        </div>
+        <nav class="menu">
+            <ul class="list-inline">
+                <li class="active"><a>首页</a></li>
+                <li><a>小程序</a></li>
+                <li><a>关于我们</a></li>
+                <li><a>支付体系</a></li>
+                <li><a>系统优势</a></li>
+                <li><a>系统后台</a></li>
+                <li><a>收银场景</a></li>
+                <li><a>场景案例</a></li>
+                <li class="call-me"><a>招商加盟</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <div class="welcome"><p><u>Loading . . .</u></p></div>
+    <section class="video">
+    	<div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide nth1">
+                <div class="box">
+                    <div class="left">
+                        <ul class="list-inline">
+                            <li>
+                                <div class="big-text">8.41亿+</div>
+                                <p class="small-text">微信活跃人数</p>
+                            </li>
+                            <li>
+                                <div class="big-text">4.92亿+</div>
+                                <p class="small-text">支付宝活跃人数</p>
+                            </li>
+                            <li>
+                                <div class="big-text">便捷</div>
+                                <p class="small-text">手机扫码，一码即付</p>
+                            </li>
+                            <li>
+                                <div class="big-text">安全</div>
+                                <p class="small-text">资金账户安全保障</p>
+                            </li>
+                        </ul>
+                      </div>
+                    <div class="right">
+                        <p>快速接入<span class="orange">主流</span>移动支付</p>
+                        <span class="big-text orange">事业通，移动支付</span>
+                        <i>专注于移动支付 专注于解决方案</i>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+              </div>
+              <div class="swiper-slide nth2">
+              	<div class="box">
+                    <div class="right">
+                        <p class="round">聚合<span class="dot">·</span>共享</p>
+                        <span class="big-text orange">先入为主，布局未来</span>
+                        <i>事业通开启智慧城市商业新生态</i>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide nth3">
+              	<div class="box">
+                    <div class="box-text">
+                        <p class="big-text">共享雨伞<br>一把会赚钱的伞</p>
+                        <div class="small-text-p">
+                            <p class="small-text">晴天 雨天 都是美好的一天</p>
+                            <p class="small-text">里面 外面 都有不同的一面</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!--<div class="swiper-slide nth4">-->
+              	<!--<div class="box">-->
+                  <!--<div class="top"><span>先入为主，布局未来</span><i></i></div>-->
+                  <!--<div class="bottom">全面布局<u>PC</u>端与<u>移动</u>端<br />抢占头等商-->
+
+<!--机<br />基于<u>支付宝与微信</u>快速布局，打开移动支付与智慧城市</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            </div>
+        </div>
+        <div class="innerBox">
+        	<div class="news">
+            	<!--<span>NEWS :</span>-->
+                <!--<a href="/html/news/" title="更多文章动态" class="more"-->
+
+<!--target="_blank">more</a>-->
+                <ul>
+                   {dede:arclist row='5' titlelen='50' typeid='2'}
+                	<li><a href="[field:arcurl/]" target="_blank"
+
+title="[field:title/]">[field:title/]...</a></li>
+                   {/dede:arclist}
+                </ul>
+            </div>
+            <div class="guide"></div>
+            <a class="movedown"></a>
+        </div>
+    </section>
+    <section class="business">
+      <div class="box">
+        <div class="caption">
+        	<h2>微信小程序定制</h2>
+        	<p>CUSTOM MADE</p>
+        </div>
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+              <div class="swiper-wrapper-left">
+                    <p class="text-title"><span class="yellow">排名</span>和小程序注册时间、活跃度有直接关系，<br/>
+                        现在微信小程序正以<br/>
+                        每天20万+的数据被抢注着。</p>
+                    <ul class="list-inline">
+                        <li>
+                            <div class="list-img">
+                                <img src="{dede:global.cfg_templeturl/}/Images/business-list-img01.jpg"/>
+                            </div>
+                            <div class="arrow-img"></div>
+                            <div class="list-text">
+                                确定小程序<br>
+                                所属行业
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-img">
+                                <img src="{dede:global.cfg_templeturl/}/Images/business-list-img02.jpg"/>
+                            </div>
+                            <div class="arrow-img"></div>
+                            <div class="list-text">
+                                确定小程序<br>
+                                所属行业
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-img">
+                                <img src="{dede:global.cfg_templeturl/}/Images/business-list-img01.jpg"/>
+                            </div>
+                            <div class="list-text">
+                                确定小程序<br>
+                                所属行业
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="btn">
+                        <a >立即咨询</a>
+                    </div>
+              </div>
+              <div class="swiper-wrapper-right">
+                  <h3>商家做小程序的<span class="yellow">8</span>个理由</h3>
+                  <ul class="items list-inline">
+                     <li>
+                         <h4>唯一性</h4>
+                         <p>小程序<span class="yellow">名称唯一</span>性，<br/>
+                             先注先得，<br/>
+                             手慢被竞争对手抢走。</p>
+                     </li>
+                      <li>
+                          <h4>5公里免费推广</h4>
+                          <p>微信小程序周围<span class="yellow">五公里免费曝光</span>，<br/>
+                              让身边的微信用户免费看到你，<br/>
+                              比发传单，更有效，省钱，省力!</p>
+                      </li>
+                      <li>
+                          <h4>关键词红利</h4>
+                          <p><span class="yellow">微信搜索</span>搜一搜，<br/>
+                              一个小程序10个关键词，<br/>
+                              让9.6亿微信用户找到你。</p>
+                      </li>
+                      <li>
+                          <h4>取代80%APP</h4>
+                          <p>微信小程序<span class="yellow">不用安装</span>，<br/>
+                              不用卸载，用完即走，<br/>
+                              将会取代80%的APP价值。</p>
+                      </li>
+                      <li>
+                          <h4>与公众号相辅相成</h4>
+                          <p>公众号可以关联13个小程序，<br/>
+                              可以相互导流，<br/>
+                              微信已有<span class="yellow">多个路口进入</span>小程序。</p>
+                      </li>
+                      <li>
+                          <h4>红利期</h4>
+                          <p>小程序是<span class="yellow">微信大力推广</span>的一个应用，<br/>
+                              现在是红利期，<br/>
+                              门槛低，注册简单，使用方便!</p>
+                      </li>
+                  </ul>
+              </div>
+              <div class="clearfix"></div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <section class="cases">
+      <div class="box">
+        <div class="caption">
+            <div class="caption-body">
+                <ul class="caption-ul">
+                    <li>
+                        <img src="{dede:global.cfg_templeturl/}/Images/cases-list-img05.jpg"/>
+                    </li>
+                    <li>
+                        <img src="{dede:global.cfg_templeturl/}/Images/cases-list-img06.jpg"/>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="swiper-container">
+           <div class="swiper-wrapper">
+                <div class="swiper-wrapper-left">
+                    <div class="pull-left">
+                        <ul class="list-inline active">
+                            <li>
+                                <img src="{dede:global.cfg_templeturl/}/Images/cases-list-img01.jpg"/>
+                            </li>
+                            <li>
+                                <img src="{dede:global.cfg_templeturl/}/Images/cases-list-img02.jpg"/>
+                            </li>
+                            <li>
+                                <img src="{dede:global.cfg_templeturl/}/Images/cases-list-img03.jpg"/>
+                            </li>
+                            <li>
+                                <img src="{dede:global.cfg_templeturl/}/Images/cases-list-img04.jpg"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pull-left click-ul">
+                        <ul class="list-inline" id="cases4">
+                            <li class="active">
+                                <a href="#sixiang"><i></i><span>思想</span></a>
+                            </li>
+                            <li>
+                                <a href="#guanyu"><i></i><span>关于</span></a>
+                            </li>
+                            <li>
+                                <a href="#rongyu"><i></i><span>荣誉</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="swiper-wrapper-right" id="text-con">
+                    <div class="text active" id="sixiang">
+                        <h2>厚积薄发</h2>
+                        <p>
+                            登上峰顶，不是为了饱览风光，是为了寻找更高的山峰<br>
+                            日出东方，告别了昨天的荣耀，将光芒照向更远的地方<br>
+                            路上，我们更在意如何积累和沉淀下一秒，<br>
+                            让你看，我们到底有多强<br>
+                        </p>
+                        <p>
+                            让用户体验到便利，让商户感受到实惠，让代理商获得盈利,<br>
+                            是事业通不变的坚持；
+                        </p>
+
+                    </div>
+                    <div class="text" id="guanyu">
+                        <h2>关于事业通</h2>
+                        <p>坐落于广州岭南国际电子商务产业园，是优秀的支付宝ISV与微信支付服务商。专注于移动支付、扫码支付、商家便捷收银、微信营销，为商家的收银与支付营销提供一站式服务。  </p>
+                        <p>我们始终坚持以客户需求为导向，追求用户体验设计，提供针对性的项目解决方案，事业通将不断地超越自我，挑战险峰！  </p>
+                        <p>支付产业大变革时代，聚合支付将迎来新的机遇与挑战，打好差异化，<span class="orange">做好增值服务才是聚合支付的出路</span>。  </p>
+                    </div>
+                    <div class="text" id="rongyu">
+                        <h2>放下荣誉，放眼未来</h2>
+                        <p>
+                            1000+家020商户信赖之选<br>
+                            100+上市/集团企业出解决方案<br>
+                            支付宝最优秀ISV服务商<br>
+                            微信支付最佳合作服务商<br>
+                            口碑网最佳城市服务商<br>
+                        </p>
+                        <p>
+                            聚合·共享，开启智慧城市新生态是事业通不改的初衷。<br>
+                            聚合·共享，一定会让城市更美好。<br>
+                        </p>
+                    </div>
+                </div>
+               <div class="clearfix"></div>
+           </div>
+        </div>
+      </div>
+    </section>
+    <section class="clients">
+   	  <div class="box">
+    	<div class="caption">
+            <div class="caption-title">
+                <div class="caption-big-title">
+                    <h2>移动支付体系</h2>
+                    <p>PRODUCT SYSTEM</p>
+                </div>
+                <div class="caption-sub-title">
+                    扫一扫，怎么支付都可以！<br>
+                    支持<span>信用卡/花呗</span>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <h3>事业通-移动聚合支付平台</h3>
+                  <div class="text-img">
+                      <img src="{dede:global.cfg_templeturl/}/Images/clients-text.jpg"/>
+                  </div>
+                  <h4>快捷方便，0成本接入“多码合一”，秒到 D+0 T+1 多种结算方式</h4>
+                  <ul class="list-inline">
+                      <li>
+                          <img src="{dede:global.cfg_templeturl/}/Images/clients-list-img01.jpg"/>
+                          <p>银联支付</p>
+                      </li>
+                      <li>
+                          <img src="{dede:global.cfg_templeturl/}/Images/clients-list-img02.jpg"/>
+                          <p>微信支付</p>
+                      </li>
+                      <li>
+                          <img src="{dede:global.cfg_templeturl/}/Images/clients-list-img03.jpg"/>
+                          <p>百度钱包</p>
+                      </li>
+                      <li>
+                          <img src="{dede:global.cfg_templeturl/}/Images/clients-list-img04.jpg"/>
+                          <p>支付宝支付</p>
+                      </li>
+                      <li>
+                          <img src="{dede:global.cfg_templeturl/}/Images/clients-list-img05.jpg"/>
+                          <p>京东钱包</p>
+                      </li>
+                      <li>
+                          <img src="{dede:global.cfg_templeturl/}/Images/clients-list-img06.jpg"/>
+                          <p>事业通</p>
+                      </li>
+                      <li>
+                          <p>支付接口不断扩展中...</p>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+    </section>
+    <section class="quality">
+      <div class="box">
+    	<div class="caption">
+            <h2>事业通移动支付优势</h2>
+            <p> PRODUCT ADVANTAGE</p>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <ul class="littel-text">
+                    <li><span></span>多商户入驻</li>
+                    <li><span></span>全国分红</li>
+                    <li><span></span>区域代理</li>
+                    <li><span></span>直达营销</li>
+                </ul>
+                <ul class="more-text">
+                    <li>扫码开通，专店专用</li>
+                    <li>支持支付宝、微信一码付款</li>
+                    <li>开通即免收个人提现费</li>
+                    <li>支持信用卡、花呗收付款</li>
+                    <li>费率最低至0.38%，远低于传统POS费率</li>
+                    <li>无收款额度限制</li>
+                    <li>资金安全，秒到支付宝余额，银行卡T1到账</li>
+                    <li>支持信用卡、花呗收付款</li>
+                </ul>
+                <ul class="list-inline">
+                  <li>
+                      <div class="ling-img">
+                          <img src="{dede:global.cfg_templeturl/}/Images/quality-list-img01.jpg"/>
+                      </div>
+                      <p>全网电商平台</p>
+                  </li>
+                    <li>
+                        <div class="ling-img">
+                            <img src="{dede:global.cfg_templeturl/}/Images/quality-list-img02.jpg"/>
+                        </div>
+                        <p>APP+小程序</p>
+                    </li>
+                    <li>
+                        <div class="ling-img">
+                            <img src="{dede:global.cfg_templeturl/}/Images/quality-list-img03.jpg"/>
+                        </div>
+                        <p>分销平台</p>
+                    </li>
+                    <li>
+                        <div class="ling-img">
+                            <img src="{dede:global.cfg_templeturl/}/Images/quality-list-img04.jpg"/>
+                        </div>
+                        <p>全返平台</p>
+                    </li>
+                    <li>
+                        <div class="ling-img">
+                            <img src="{dede:global.cfg_templeturl/}/Images/quality-list-img05.jpg"/>
+                        </div>
+                        <p>智慧餐厅</p>
+                    </li>
+                    <li>
+                        <div class="ling-img">
+                            <img src="{dede:global.cfg_templeturl/}/Images/quality-list-img06.jpg"/>
+                        </div>
+                        <p>社区活动</p>
+                    </li>
+                    <li>
+                        <div class="ling-img">
+                            <img src="{dede:global.cfg_templeturl/}/Images/quality-list-img07.jpg"/>
+                        </div>
+                        <p>线下营销</p>
+                    </li>
+                    <li>
+                        <div class="ling-img">
+                            <img src="{dede:global.cfg_templeturl/}/Images/quality-list-img08.jpg"/>
+                        </div>
+                        <p>广告营销</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="marketing">
+      <div class="box">
+        <div class="caption">
+            <div class="caption-title">
+                <h2>APP+网页版+电脑客户端，<br><span>商家财富管理系统，双效保障 加倍安全</span></h2>
+            </div>
+        </div>
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <div class="swiper-img-web">
+                      <img src="{dede:global.cfg_templeturl/}/Images/marketing-img01.png"/>
+                  </div>
+                  <div class="swiper-img-app">
+                      <img src="{dede:global.cfg_templeturl/}/Images/marketing-img02.jpg"/>
+                  </div>
+                  <div class="swiper-text-web">
+                      <h3>事业通后台(网页版)：<br>最具规模的综合平台系统</h3>
+                      <p>·仅需一个后台，满足不同职位需求<br>
+                          · 支持微信支付、支付宝支付等多种支付方式<br>
+                          · 支持多层级营销管理，优化专业渠道团队<br>
+                          · 登陆网址：syt.qp8888.net</p>
+                  </div>
+                  <div class="  swiper-text-app">
+                      <h3>事业通后台(客户端)：<br>一键无缝对接收银系统软件</h3>
+                      <p> • 交易明细实时更新<br>
+                      • 商户管理一目了然<br>
+                      • 区分管理者与员工的使用功能，<br>
+                      实现互联网人力资源化”
+                      </p>
+                  </div>
+              </div>
+          </div>
+        <ul class="items list-inline">
+        	<li class="se">
+
+            </li>
+        </ul>
+      </div>
+    </section>
+    <section class="aboutus">
+        <div class="box">
+            <div class="caption">
+                <div class="caption-title">
+                    <h2>事业通收银更简单</h2>
+                    <p>PRODUCT CONVENIENT</p>
+                </div>
+            </div>
+            <ul class="menu"></ul>
+            <div class="swiper-container items">
+                <ul class="list-inline list1">
+                        <li>
+                            <div class="list-img">
+                                <img src="{dede:global.cfg_templeturl/}/Images/aboutus-list-img01.jpg"/>
+                            </div>
+                            <p>收银台软件</p>
+                            <div class="add-img">
+                                <img src="{dede:global.cfg_templeturl/}/Images/aboutus-add-img.jpg"/>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="list-img">
+                                <img src="{dede:global.cfg_templeturl/}/Images/aboutus-list-img02.jpg"/>
+                            </div>
+                            <p>门贴、台架等</p>
+                        </li>
+                    </ul>
+                <div class="list-bg">
+                    <div class="pull-left">
+                        <p class="title">功能支持</p>
+                    </div>
+                    <div class="pull-left">
+                        <ul class="list-inline list2">
+                            <li>
+                                <div class="list2-img">
+                                    <img src="{dede:global.cfg_templeturl/}/Images/aboutus-list-img03.jpg"/>
+                                </div>
+                                <p>轻松收款</p>
+                            </li>
+                            <li>
+                                <div class="list2-img">
+                                    <img src="{dede:global.cfg_templeturl/}/Images/aboutus-list-img04.jpg"/>
+                                </div>
+                                <p>卡券营销</p>
+                            </li>
+                            <li>
+                                <div class="list2-img">
+                                    <img src="{dede:global.cfg_templeturl/}/Images/aboutus-list-img05.png"/>
+                                </div>
+                                <p>收银助手</p>
+                            </li>
+                            <li>
+                                <div class="list2-img">
+                                    <img src="{dede:global.cfg_templeturl/}/Images/aboutus-list-img06.jpg"/>
+                                </div>
+                                <p>O2O营销</p>
+                            </li>
+                            <li>
+                                <div class="list2-img">
+                                    <img src="{dede:global.cfg_templeturl/}/Images/aboutus-list-img07.png"/>
+                                </div>
+                                <p>开放接口</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="aboutus-text">
+                   <h3>多门店管理</h3>
+                    <p>一码可以生成N个收款码，<br>
+                        分店账务再也不会乱了</p>
+                    <ul>
+                        <li> · 智能设置 多层级业务|财务权限</li>
+                        <li> · 一步让您的营运数据实时同步</li>
+                        <li> · 全面满足连锁店管理需求</li>
+                        <li> · 全线联网，换电脑也可继续使用</li>
+                        <li> · 智能匹配授权账号，</li>
+                        <li> 自由许可PC客户端、APP登入权限</li>
+                    </ul>
+                </div>
+                <div class="swiper-wrapper">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="avail">
+        <div class="box">
+            <div class="caption">
+                <div class="caption-title">
+                    <h2>移动支付开启智慧城市</h2>
+                    <p>CONTRIBUTION</p>
+                </div>
+                <div class="caption-sub-title">
+                    <h3>因为用心，所以更专业</h3>
+                    <div class="attention">
+                        <a href="" class="wx">关注微信</a>
+                        <a href="" class="wb">关注微博</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container items">
+                <div class="swiper-wrapper">
+                    <div class="pull-left">
+                        <div class="title">
+                            <h3>场景案例</h3>
+                            <a href="/html/cases" target="_blank"class="more">更多>></a>
+                            <div class="clearfix"></div>
+                        </div>
+                        <ul class="swiper-items list-inline">
+                            <li>
+                                <div class="list-img">
+                                    <img src="{dede:global.cfg_templeturl/}/Images/avail-list-img01.jpg"/>
+                                </div>
+                                <p>中粮集团-西单大悦城<br>
+                                    口碑案例</p>
+                            </li>
+                            <li>
+                                <div class="list-img">
+                                    <img src="{dede:global.cfg_templeturl/}/Images/avail-list-img02.jpg"/>
+                                </div>
+                                <p>玩转手机<br>
+                                    一手掌握口碑KTV</p>
+                            </li>
+                            <li>
+                                <div class="list-img">
+                                    <img src="{dede:global.cfg_templeturl/}/Images/avail-list-img03.jpg"/>
+                                </div>
+                                <p>扫码点餐</p>
+                            </li>
+                            <li>
+                                <div class="list-img">
+                                    <img src="{dede:global.cfg_templeturl/}/Images/avail-list-img04.jpg"/>
+                                </div>
+                                <p>微信<br>
+                                    智慧车险</p>
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="pull-right">
+                        <div class="text-bg">
+                            <h4>助力商家，整合营销</h4>
+                            <ul>
+                                <li>· <span>1000+</span>_020商户信赖之选</li>
+                                <li>· <span>100+</span>_上市/集团企业解决方案</li>
+                                <li>· <span>支付宝</span>_最优秀ISV服务商</li>
+                                <li>· <span>口碑网</span>_最佳城市服务商</li>
+                                <li>· <span>微信支付</span>_最佳合作服务商</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="b-aboutus">
+        <div class="w-jiameng">
+            <div class="jiameng">
+                <div class="pull-left">
+                    <div class="title">
+                        <h2>寻找<span>万</span>名城市合伙人</h2>
+                        <img src="{dede:global.cfg_templeturl/}/Images/jm-title-img.jpg"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="输入您的公司名称"/>
+                        <span class="icon icon-name"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="输入您的代理城市"/>
+                        <span class="icon icon-address"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="输入您的姓名"/>
+                        <span class="icon icon-man"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="输入您的手机号或微信号"/>
+                        <span class="icon icon-phone"></span>
+                    </div>
+                    <div class="form-group no-border">
+                        <button class="btn">提 交</button>
+                    </div>
+                </div>
+                <div class="pull-right">
+                    <ul class="column">
+                        <li class="active"><a href="#zf">支付</a></li>
+                        <li><a href="#gx">共享</a></li>
+                        <div class="clearfix"></div>
+                    </ul>
+
+                    <div class="column-body">
+                        <div id="gx" class="box active">
+                            <div class="ul1-column-title">
+                                <h3>基于物联网技术的雨伞共享</h3>
+                                <p>----总有一把雨伞在附近</p>
+                            </div>
+                            <ul class="column-ul ul2">
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img01.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img02.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img03.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img04.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img05.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img06.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img07.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img08.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img09.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img10.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img11.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img12.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img13.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img14.jpg"/>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/a-ul-img15.jpg"/>
+                                    </div>
+                                </li>
+                                <div class="clearfix"></div>
+                            </ul>
+                        </div>
+                        <div id="zf" class="box">
+                            <div class="ul2-column-title">
+                                <h3>大平台扶持  资金秒到  活动多 </h3>
+                                <p>----我们所涉及的行业不止这些</p>
+                            </div>
+                            <ul class="column-ul ul1">
+                                <li class="border-right">
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/b-ul-img01.jpg"/>
+                                    </div>
+                                    <p>餐饮休闲</p>
+                                </li>
+                                <li class="border-right">
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/b-ul-img02.jpg"/>
+                                    </div>
+                                    <p>花园小区</p>
+                                </li>
+                                <li class="border-right">
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/b-ul-img03.jpg"/>
+                                    </div>
+                                    <p>医院</p>
+                                </li>
+                                <li>
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/b-ul-img04.jpg"/>
+                                    </div>
+                                    <p>驾校</p>
+                                </li>
+                                <li class="border-right border-top">
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/b-ul-img05.jpg"/>
+                                    </div>
+                                    <p>商圈</p>
+                                </li>
+                                <li class="border-right border-top">
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/b-ul-img06.jpg"/>
+                                    </div>
+                                    <p>旅游景区</p>
+                                </li>
+                                <li class="border-right border-top">
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/b-ul-img07.jpg"/>
+                                    </div>
+                                    <p>办公室写字楼</p>
+                                </li>
+                                <li class="border-top">
+                                    <div class="list-img">
+                                        <img src="{dede:global.cfg_templeturl/}/Images/b-ul-img08.jpg"/>
+                                    </div>
+                                    <p>市场</p>
+                                </li>
+                                <div class="clearfix"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+               <div class="pull-left">
+                    <div class="code-img">
+                        <img src="{dede:global.cfg_templeturl/}/Images/code.jpg"/>
+                        <p>扫码关注事业通公众号</p>
+                    </div>
+                   <ul>
+                       <li><a href="">关于我们</a></li>
+                       <li><a href=""> 商务合作</a></li>
+                       <li><a href="/html/cases" target="_blank">案例欣赏</a></li>
+                       <li><a href="http://wx.51syt.cn//wx/down/ios" target="_blank">APP下载（苹果）</a></li>
+                       <li><a href="http://wx.51syt.cn//wx/down/android">APP下载（安卓）</a></li>
+                       <li><a href="http://wx.17syt.cn/soft/cashier.exe">收银台下载</a></li>
+                       <li><a href="">人才招聘</a></li>
+
+                   </ul>
+               </div>
+                <div class="pull-left">
+                    <div class="text">
+                        <p class="phone">400-1828-699</p>
+                        <p class="e-text">Win the customers , win the world for you</p>
+                        <p class="c-text">一码揽<span>千</span>客，<span>助</span>您事业通</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="footer-end">
+                <div class="footer-end-content">
+                    <span>Copyright 2016-2017</span>
+                    <span><a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备17130512号</a></span>
+                    <span>Email：syt17@qq.com</span>
+                    <span>青浦区徐泾镇华徐公路中国梦谷3号楼4118</span>
+                    <span>400-1828-699 </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="dock">
+        <ul class="icons">
+        	<li class="up"><i></i></li>
+            <li class="im">
+            	<i></i><p>咨询<br />在线沟通，请点我<a target=blank href=tencent://message/?uin=3111737916&Menu=yes>在线咨询</a></p>
+            </li>
+            <li class="tel">
+            	<i></i><p>咨询热线：<br />400-1828-699</p>
+            </li>
+            <li class="wechat">
+            	<i></i><p><img 
+
+src="{dede:global.cfg_templeturl/}/Picture/wechat_code.jpg" alt="扫描关注微信公众账号" 
+
+/></p>
+            </li>
+            <li class="down"><i></i></li>
+        </ul>
+        <a class="switch"></a>
+    </div>
+<script>
+    var player;
+    $("#cases4 li").mouseenter(
+        function(){
+            clearInterval(player);
+            var id = $(this).children("a").attr("href");
+            $(this).addClass("active").siblings().removeClass("active");
+            $(id).addClass("active").siblings().removeClass("active");
+        }
+    ).mouseleave(
+        function(){
+            autoPlay();
+        }
+    );
+    $("#cases4 li").click(
+        function(){
+           return false;
+        }
+    );
+    function autoPlay(){
+        var i=1;
+        player = setInterval(function() {
+            if(i<4){
+                $('#text-con .text:nth-child('+i+')').addClass("active").siblings().removeClass("active");
+                $('#cases4 li:nth-child('+i+')').addClass("active").siblings().removeClass("active");
+                console.log(i);
+            }else{
+                i=0;
+            }
+            i++;
+        }, 3000);
+    }
+    autoPlay();
+
+    var player1;
+    $(".column li").mouseenter(
+        function(){
+            clearInterval(player1);
+            var id = $(this).children("a").attr("href");
+            $(this).addClass("active").siblings().removeClass("active");
+            $(id).addClass("active").siblings().removeClass("active");
+        }
+    ).mouseleave(
+        function(){
+            autoPlay1();
+        }
+    );
+    function autoPlay1(){
+        var i=1;
+        player1 = setInterval(function() {
+            if(i<3){
+                $('.column-body .box:nth-child('+i+')').addClass("active").siblings().removeClass("active");
+                $('.column li:nth-child('+i+')').addClass("active").siblings().removeClass("active");
+                console.log(i);
+            }else{
+                i=0;
+            }
+            i++;
+        }, 3000);
+    }
+    autoPlay1();
+</script>
+</body>
+</html>

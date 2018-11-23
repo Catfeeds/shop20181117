@@ -1,0 +1,1 @@
+INSERT INTO `dede_homepageset` VALUES('1000zhu/index.htm','../index.html','1');

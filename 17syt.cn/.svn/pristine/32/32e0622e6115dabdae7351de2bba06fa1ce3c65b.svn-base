@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>客户案例  /  微信支付_事业通-关心您的收银事业</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="copyright" content="Copyright 17syt.com 版权所有" />
+    
+    <link href="/templets/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/templets/Content/inner.min.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="/templets/Scripts/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="/templets/Scripts/jquery.min.js"></script>
+    <script src="/templets/Scripts/bootstrap.min.js"></script>
+    <script src="/templets/Scripts/inner.min.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="box">
+	       <a href="/" title="事业通-移动支付领导品牌"><img src="/templets/Picture/logo_cases.png" alt="事业通-移动支付领导品牌" /></a>
+        <div class="wechat">
+    	    <img src="/templets/Picture/wechat_code.jpg" alt="扫描关注微信公众账号" class="wechat" /><p>扫一扫微信二维码<br /><i></i></p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/">返回首页</a></li>
+            
+            <li><a href="/html/news/">资讯动态</a></li>
+            <li class='active'><a href='/html/cases/' style='color:white;'>客户案例</a></li>
+            <li><a href="/html/bangzhu/">新手帮助</a></li>
+            
+            <li><a href="/html/job/">招贤纳士</a></li>
+            
+          </ul>
+        </nav>
+    </div>
+    <footer>
+	       << 移动支付，事业恒通<br /><u>2008 - 2016</u>事业通<br /><a href="http://www.17syt.com/" target="_blank">广东事业通网络科技有限公司</a>
+
+    </footer>
+</header>
+    
+    <section class="toolbar">
+    	<a href="/" title="返回首页" class="homelink"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    	<span class="switch glyphicon glyphicon-th-list"></span>
+        <div class="category btn-group">
+             <a href="/html/cases/" class="btn btn-default">全部</a>
+             
+        	 <a href="/html/cases/alipay/" class="btn btn-default">支付宝</a>
+             <a href='/html/cases/weixin/' class='btn btn-default btn-primary'>微信支付</a> 
+        </div>	
+    </section>
+    
+    <section class="caselist content">
+        <ul class="items list-inline">
+           <li>
+              <a href="/html/cases/weixin/2016/1226/54.html" target="_blank">
+              <img src="/uploads/161225/161226/1-1612261G025W9.jpg" alt="微信智慧车险" />
+              <p> <br /><strong>微信智慧车险</strong><br /></p></a>
+            </li><li>
+              <a href="/html/cases/weixin/2016/1226/55.html" target="_blank">
+              <img src="/uploads/161225/161226/1-1612261F945V0.jpg" alt="微信智慧便利店" />
+              <p> <br /><strong>微信智慧便利店</strong><br /></p></a>
+            </li>
+        </ul>
+        <div id="Paging" class="paging">
+             <div class="qzPagination">
+                  <span class="disabled prev">«</span><span class="current">1</span><span class="disabled next">»</span>
+
+             </div>
+        </div>
+    </section>
+    
+       <div class="dock">
+        <ul class="icons">
+        	<li class="up"><i></i></li>
+            <li class="im">
+            	<i></i><p>咨询<br />在线沟通，请点我<a target=blank href=tencent://message/?uin=3111737916&Menu=yes>在线咨询</a></p>
+            </li>
+            <li class="tel">
+            	<i></i><p>咨询热线：<br />400-1828-699</p>
+            </li>
+            <li class="wechat">
+            	<i></i><p><img 
+
+src="/templets/Picture/wechat_code.jpg" alt="扫描关注微信公众账号" /></p>
+            </li>
+            <li class="down"><i></i></li>
+        </ul>
+        <a class="switch"></a>
+    </div>
+
+
+</body>
+</html>

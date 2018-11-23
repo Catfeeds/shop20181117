@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+    <meta name="keywords" content="{dede:field.keywords/}" />
+    <meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="copyright" content="Copyright 22vd.com 版权所有" />
+    
+    <link href="{dede:global.cfg_templeturl/}/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="{dede:global.cfg_templeturl/}/Content/inner.min.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="{dede:global.cfg_templeturl/}/Scripts/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="{dede:global.cfg_templeturl/}/Scripts/jquery.min.js"></script>
+    <script src="{dede:global.cfg_templeturl/}/Scripts/bootstrap.min.js"></script>
+    <script src="{dede:global.cfg_templeturl/}/Scripts/inner.min.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="box">
+	    <a href="/" title="织梦网站建设与制作"><img src="{dede:global.cfg_templeturl/}/Picture/logo_cases.png" alt="织梦设计出品" /></a>
+        <div class="wechat">
+    	    <img src="{dede:global.cfg_templeturl/}/Picture/wechat_code.jpg" alt="扫描关注网站建设微信公众账号" class="wechat" /><p>扫一扫微信二维码<i></i></p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/">织梦首页</a></li>
+            {dede:channel type='top' currentstyle="<li class='active'><a href='~typelink~' style='color:white;'>~typename~</a></li> "}
+            <li><a href="[field:typeurl/]">[field:typename/]</a></li>
+            {/dede:channel}
+          </ul>
+        </nav>
+    </div>
+    <footer>
+	    高端定制，品牌设计<br /><u>2008 - 2015</u>作品集<br /><a href="http://www.22vd.com/" target="_blank">深圳网站建设与制作公司</a>
+    </footer>
+</header>
+    
+    <section class="toolbar">
+    	<a href="/" title="返回首页" class="homelink"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    	<span class="switch glyphicon glyphicon-th-list"></span>
+        <div class="category btn-group">
+             <a href="/a/cases/" class="btn btn-default">全部</a>
+             {dede:channel type='son' currentstyle="<a href='~typelink~' class='btn btn-default btn-primary'>~typename~</a>"}
+        	 <a href="[field:typeurl/]" class="btn btn-default">[field:typename/]</a>
+             {/dede:channel} 
+        </div>	
+    </section>
+    
+    <section class="caselist content">
+        <ul class="items list-inline">
+           {dede:list pagesize='12'}
+        	<li>
+              <a href="[field:arcurl/]" target="_blank">
+              <img src="[field:litpic/]" alt="[field:title/]" />
+              <p>网站设计<br /><strong>[field:title/]</strong><br />[field:id function=GetTags(@me)/]</p></a>
+            </li>
+           {/dede:list}
+        </ul>
+        <div id="Paging" class="paging">
+             <div class="qzPagination">
+                  {dede:pagelist listitem="pre,next,pageno" listsize="5"/}
+             </div>
+        </div>
+    </section>
+    
+    <div class="dock">
+        <ul class="icons">
+        	<li class="up"><i></i></li>
+            <li class="tel">
+            	<i></i><p>建站咨询热线<br />400-0919-097</p>
+            </li>
+            <li class="im">
+            	<i></i><p><a href="http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=3017267&type=n&siteid=4805" target="_blank">点我，建站咨询</a></p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

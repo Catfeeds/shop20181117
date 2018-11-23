@@ -1,0 +1,804 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+    <meta name="keywords" content="{dede:field.keywords/}" />
+    <meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="copyright" content="Copyright 17syt.cn 版权所有" />
+    <link href="{dede:global.cfg_templeturl/}/Content/bootstrap.min.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="{dede:global.cfg_templeturl/}/Scripts/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="{dede:global.cfg_templeturl/}/Scripts/jquery.min.js"></script>
+    <script src="{dede:global.cfg_templeturl/}/Scripts/bootstrap.min.js"></script>
+    <style>
+        .row {
+            background: #fff;
+            border-top: 1px solid #ddd;
+            padding: 15px;
+        }
+        ul.list-inline li{
+            margin: 5px;
+        }
+        h4 {
+           color: #333;
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 25px;
+        }
+        header, section {
+            width: 100%;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        a:focus {
+            outline: none;
+        }
+        header {
+            position: fixed;
+            height: 74px;
+            color: #ccc;
+            z-index: 999;
+            height: 70px;
+        }
+        .header{
+            background:#fff;
+            border-bottom:2px solid #ff9900;
+        }
+        header .header-body{
+            width:1045px;
+            margin:0 auto;
+        }
+        header .logo {
+            width: 230px;
+        }
+        header .logo img,header .logo .words{
+            float:left;
+
+        }
+        header .logo img{
+            margin-top:20px;
+        }
+        header .logo .words{
+            line-height:88px;
+            margin-left:40px;
+        }
+
+        header .words {
+            letter-spacing: 1px;
+            font-weight: normal;
+
+        }
+        header .logo ,header nav.menu{
+            float:left;
+        }
+        header nav.menu {
+            text-align: center;
+            -webkit-transition: all .2s ease-in-out 0s;
+            -moz-transition: all .2s ease-in-out 0s;
+            -ms-transition: all .2s ease-in-out 0s;
+            -o-transition: all .2s ease-in-out 0s;
+            transition: all .2s ease-in-out 0s;
+        }
+        header nav.menu ul.list-inline{
+            margin:0;
+
+        }
+        header nav.menu ul li {
+            font-size: 14px;
+            padding:0;
+            display:block;
+            float:left;
+            -webkit-transition: all .2s ease-in-out 0s;
+            -moz-transition: all .2s ease-in-out 0s;
+            -ms-transition: all .2s ease-in-out 0s;
+            -o-transition: all .2s ease-in-out 0s;
+            transition: all .2s ease-in-out 0s;
+        }
+
+        header nav.menu ul li a {
+            display:inline-block;
+            height:70px;
+            padding:0 9px;
+            line-height:80px;
+            color: #1a1a1a;
+            cursor: pointer;
+        }
+        header nav.menu ul li.call-me{
+            margin-left:15px;
+        }
+        header nav.menu ul li.call-me a{
+            display: inline-block;
+            height: 38px;
+            width: 110px;
+            border: 1px solid #ff9900;
+            border-radius: 20px;
+            color: #ff9900;
+            margin-top: 15px;
+            line-height: 38px;
+        }
+        header nav.menu ul li a:hover, header nav.menu ul li.active a {
+            background:#003366;
+            text-decoration: none;
+            color:#fff;
+        }
+        header nav.menu ul li.call-me a:hover{
+            background:#ff9900;
+            color:#fff;
+        }
+        header .hotline {
+            position: fixed;
+            top: 32px;
+            right: 215px;
+            -webkit-transition: all .2s ease-in-out 0s;
+            -moz-transition: all .2s ease-in-out 0s;
+            -ms-transition: all .2s ease-in-out 0s;
+            -o-transition: all .2s ease-in-out 0s;
+            transition: all .2s ease-in-out 0s;
+        }
+        header.fixed .hotline {
+            top: 20px;
+            right: 185px;
+        }
+        header .hotline span {
+            position: fixed;
+            color: #00dfb9;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 26px;
+            letter-spacing: 1px;
+            -webkit-transition: all .2s ease-in-out 0s;
+            -moz-transition: all .2s ease-in-out 0s;
+            -ms-transition: all .2s ease-in-out 0s;
+            -o-transition: all .2s ease-in-out 0s;
+            transition: all .2s ease-in-out 0s;
+        }
+        header.fixed .hotline span {
+            font-size: 20px;
+        }
+        header .hotline u {
+            position: fixed;
+            top: 35px;
+            right: 230px;
+            display: block;
+            width: 30px;
+            height: 30px;
+            text-decoration: none;
+            background: url(../Images/icons.png) no-repeat;
+            -webkit-transition: all .2s ease-in-out 0s;
+            -moz-transition: all .2s ease-in-out 0s;
+            -ms-transition: all .2s ease-in-out 0s;
+            -o-transition: all .2s ease-in-out 0s;
+            transition: all .2s ease-in-out 0s;
+        }
+        header.fixed .hotline u {
+            top: 20px;
+            right: 195px;
+        }
+        header .hotline a {
+            color: #00dfb9;
+        }
+        header .menu-icon {
+            position: fixed;
+            top: 34px;
+            right: 48px;
+            font-size: 24px;
+            color: #00dfb9;
+            z-index: 99;
+            display: none;
+        }
+        header.fixed .menu-icon {
+            top: 18px;
+        }
+        header .menu-icon a {
+            color: #00dfb9;
+            text-decoration: none;
+        }
+        header .menu-icon span {
+            margin-left: 15px;
+            -moz-opacity: 0.5;
+            opacity: 0.5;
+            cursor: pointer;
+            -webkit-transition: all .3s ease-in-out 0s;
+            -moz-transition: all .3s ease-in-out 0s;
+            -ms-transition: all .3s ease-in-out 0s;
+            -o-transition: all .3s ease-in-out 0s;
+            transition: all .3s ease-in-out 0s;
+        }
+        header .menu-icon span.glyphicon-earphone {
+            display: none;
+        }
+        header .menu-icon span:hover, header .menu-icon span.active {
+            -moz-opacity: 1;
+            opacity: 1;
+            -webkit-transition: all .3s ease-in-out 0s;
+            -moz-transition: all .3s ease-in-out 0s;
+            -ms-transition: all .3s ease-in-out 0s;
+            -o-transition: all .3s ease-in-out 0s;
+            transition: all .3s ease-in-out 0s;
+        }
+        header .bg {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            height: 0px;
+            background: #fff;
+            -moz-opacity: 0.6;
+            opacity: 0.6;
+            z-index: -1;
+            -webkit-transition: all .2s ease-in-out 0s;
+            -moz-transition: all .2s ease-in-out 0s;
+            -ms-transition: all .2s ease-in-out 0s;
+            -o-transition: all .2s ease-in-out 0s;
+            transition: all .2s ease-in-out 0s;
+        }
+        header.fixed .bg {
+            height: 70px;
+        }
+        .content-title {
+            height: 70px;
+        }
+        .footer{
+            background:#333;
+            height:315px;
+            position:relative;
+        }
+        .footer .footer-content{
+            width:1045px;
+            margin:0 auto;
+            height:100%;
+        }
+        .footer .footer-content .pull-left{
+            width:468px;
+            position:relative;
+            color:#fff;
+            height:100%;
+        }
+        .footer .footer-content .pull-left .code-img{
+            position:absolute;
+            top:54px;
+            left:0;
+            text-align:center;
+        }
+        .footer .footer-content .pull-left .code-img p{
+            color:#fff;
+            font-size:16px;
+            margin-top:10px;
+        }
+
+        .footer .footer-content .pull-left ul{
+            position:absolute;
+            top:54px;
+            right:30px;
+            border-right:1px solid #fff;
+            padding-right:30px;
+            list-style:none;
+        }
+        .footer .footer-content .pull-left ul li a{
+            color:#fff;
+            font-size:16px;
+            margin-top:10px;
+            line-height:30px;
+        }
+        .footer .footer-content .pull-left .text{
+            position:absolute;
+            top:88px;
+            left:30px;
+        }
+        .footer .footer-content .pull-left .text .phone{
+            color:#ffcc00;
+            font-size:24px;
+        }
+        .footer .footer-content .pull-left .text .e-text{
+            font-size:16px;
+            color:#ccc;
+        }
+        .footer .footer-content .pull-left .text .c-text{
+            color:#ccc;
+            font-size:18px;
+        }
+        .footer .footer-content .pull-left .text .c-text span{
+            color:#ffcc00;
+        }
+        .footer .footer-end{
+            background:#191919;
+            height:35px;
+            line-height:35px;
+            position:absolute;
+            left:0;
+            width:100%;
+        }
+        .footer .footer-end .footer-end-content{
+            width:1045px;
+            margin:0 auto;
+        }
+        .footer .footer-end .footer-end-content span{
+            font-size:12px;
+            color:#999;
+            margin-right:23px;
+        }
+        .footer .footer-end .footer-end-content span a{
+            color:#999;
+        }
+
+        @media (max-width:1300px) {
+            header .logo {
+                top: 24px;
+                left: 35px;
+                width: 248px;
+            }
+            header .logo .words	{
+                line-height: 72px;
+                margin-left: 20px;
+            }
+            header .words {
+                display: none;
+            }
+            header nav.menu {
+                margin-left: -40px;
+            }
+            header.fixed nav.menu {
+                margin-left: -55px;
+            }
+            header nav.menu ul li {
+                margin: 0 8px;
+            }
+            header .hotline {
+                right: 200px;
+            }
+            header.fixed .hotline {
+                right: 170px;
+            }
+            header .hotline u {
+                right: 215px;
+            }
+            header.fixed .hotline u {
+                right: 180px;
+            }
+        }
+
+        @media (max-width:1080px) {
+            header .words {
+                display: block;
+                left: 220px;
+            }
+            header .hotline {
+                right: 285px;
+            }
+            header.fixed .hotline {
+                right: 255px;
+            }
+            header .hotline u {
+                right: 300px;
+            }
+            header.fixed .hotline u {
+                right: 265px;
+            }
+            header .menu-icon {
+                display: block;
+                top: 25px;
+                right: 30px;
+            }
+            header .logo img{
+                margin:15px;
+            }
+            header nav.menu {
+                position: fixed;
+                width: 72px;
+                top: 70px;
+                right: -100px;
+                margin: 0px;
+                padding-top: 30px;
+                border: 1px solid #000;
+                border-top: 1px solid #00dfb9;
+                border-right: none;
+                background: #3a3a3a;
+            }
+            header.fixed nav.menu {
+                top: 70px;
+                margin: 0px;
+            }
+            header nav.menu.active {
+                display: block;
+                margin: 0px;
+                right: 0px;
+            }
+            header nav.menu ul li, header.fixed nav.menu ul li {
+                margin: 0px;
+                margin-left: 5px;
+                width: 73px;
+                padding: 8px 0px;
+                font-family: "宋体";
+                font-size: 14px;
+                text-align: center;
+            }
+            header nav.menu ul li a{
+                display: inline-block;
+                padding: 0;
+                margin:0;
+                width:100%;
+                color: #1a1a1a;
+                cursor: pointer;
+                height: 27px;
+                line-height:30px;
+                color:#fff;
+            }
+            header nav.menu ul li.active a{
+                background:none;
+            }
+            header nav.menu ul li.call-me{
+                margin:0;
+            }
+            header nav.menu ul li.call-me a{
+                width:100%;
+                border:none;
+                color:#fff;
+                height:27px;
+                line-height:30px;
+                margin:0;
+            }
+            header nav.menu ul li.active {
+                background: #111;
+            }
+            header nav.menu .line {
+                -moz-opacity: 0;
+                opacity: 0;
+            }
+        }
+
+        @media (max-width:720px) {
+            header,header.fixed {
+                height: 54px;
+            }
+            header .logo, header.fixed .logo {
+                top: 17px;
+                left: 20px;
+                width: 120px;
+            }
+            header .words {
+                display: none;
+            }
+            header .menu-icon, header.fixed .menu-icon {
+                top: 18px;
+                right: 15px;
+            }
+            header nav.menu, header.fixed nav.menu {
+                width: 54px;
+                top: 22px;
+                padding-top: 30px;
+            }
+            header nav.menu ul li, header.fixed nav.menu ul li {
+                margin: 0;
+                padding:0;
+                width: 55px;
+                padding: 5px 0px;
+                font-size: 12px;
+            }
+            header nav.menu ul li a{
+                display: inline-block;
+                padding: 0;
+                margin:0;
+                width:100%;
+                color: #1a1a1a;
+                cursor: pointer;
+                height: 27px;
+                line-height:30px;
+                color:#fff;
+            }
+            header nav.menu ul li.active a{
+                background:none;
+            }
+            header nav.menu ul li.call-me{
+                margin:0;
+            }
+            header nav.menu ul li.call-me a{
+                width:100%;
+                border:none;
+                color:#fff;
+                height:27px;
+                line-height:30px;
+                margin:0;
+            }
+            header .logo img{
+                margin:10px;
+            }
+            header .hotline, header.fixed .hotline {
+                top: 21px;
+                right: 218px;
+            }
+            header .hotline span {
+                font-size: 20px;
+            }
+            header .hotline u, header.fixed .hotline u {
+                top: 24px;
+                right: 223px;
+                width: 15px;
+                height: 21px;
+                background: url(../Images/icons.png) no-repeat 0px -34px;
+            }
+        }
+
+        @media (max-width:460px){
+            header {
+                height: 42px;
+            }
+            header.fixed {
+                height: 42px;
+            }
+            header .logo, header.fixed .logo {
+                width: 80px;
+            }
+            header .menu-icon, header.fixed .menu-icon {
+                top: 6px;
+            }
+            header .menu-icon span.glyphicon-earphone {
+                display: none;
+            }
+            header nav.menu, header.fixed nav.menu {
+                top: 42px;
+                padding:0;
+            }
+            header .hotline, header.fixed .hotline {
+                display: none;
+            }
+            header.fixed .bg {
+                height: 0px;
+            }
+            .content-title {
+                height: 43px;
+            }
+            .footer {
+                height: 158px;
+            }
+            .footer .footer-content{
+                width:100%;
+            }
+            .footer .footer-content .pull-left{
+                width:100%;
+            }
+            .footer .footer-content .pull-left .code-img{
+                left:20px;
+                top:29px;
+            }
+            .footer .footer-content .pull-left .code-img img{
+                width:80px;
+                height:81px;
+            }
+            .footer .footer-content .pull-left .code-img p{
+                font-size:12px;
+            }
+            .footer .footer-content .pull-left ul{
+                width: 148px;
+                right:2px;
+                border:none;
+                top: 36px;
+            }
+            .footer .footer-content .pull-left ul li{
+                float:left;
+                margin: 0 10px;
+            }
+            .footer .footer-content .pull-left ul li a{
+                font-size:12px;
+            }
+            .footer .footer-content .pull-left1{
+                display: none;
+            }
+            .footer .footer-end {
+                display: none;
+            }
+        }
+        @media (max-height:310px) {
+            header, header.fixed {
+                display: none;
+                height: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<header class="header">
+    <div class="header-body">
+        <div class="logo">
+            <img src="{dede:global.cfg_templeturl/}/Picture/logo.png" alt="{dede:global.cfg_webname/}" class="img-responsive" />
+            <strong class="words">聚合·共享</strong>
+            <div class="clearfix"></div>
+        </div>
+        <nav class="menu">
+            <ul class="list-inline">
+                <li><a>首页</a></li>
+                <li><a>小程序</a></li>
+                <li><a>关于我们</a></li>
+                <li><a>支付体系</a></li>
+                <li><a>系统优势</a></li>
+                <li><a>系统后台</a></li>
+                <li><a>收银场景</a></li>
+                <li><a>场景案例</a></li>
+                <li class="call-me"><a>招商加盟</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="menu-icon">
+        <a href="tel:4001828699" title="点击直拨网站建设热线"><span
+
+                class="glyphicon glyphicon-earphone"></span></a>
+        <span class="glyphicon glyphicon-th-large"></span>
+    </div>
+</header>
+    <div class="container-fluid">
+        <div class="content-title">发布需求</div>
+        <div class="box-body">
+            <div class="row text-center">
+                <h4>在事业通平台定制小程序将获得一下福利：</h4>
+                <ul style="width: 200px;margin: 0 auto;">
+                    <li class="text-left">事业通提供后端服务&运维支持</li>
+                    <li class="text-left">获得更多推荐和曝光</li>
+                </ul>
+            </div>
+            <form id="formInfo" action="/plus/web.php" method="post" class="form-horizontal">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="real_name" class="col-sm-2 col-xs-3  control-label">姓名</label>
+
+                        <div class="col-sm-8 col-xs-10">
+                            <input type="text" class="form-control" name="real_name" id="real_name" value="" placeholder="输入姓名">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="col-sm-2 col-xs-3  control-label">手机号</label>
+
+                        <div class="col-sm-8 col-xs-10">
+                            <input type="number" class="form-control" name="phone" id="phone" value="" placeholder="输入手机号">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="entry_name" class="col-sm-2 col-xs-3  control-label">项目名称</label>
+
+                        <div class="col-sm-8 col-xs-10">
+                            <input type="text" class="form-control" name="entry_name" id="entry_name" value="" placeholder="输入项目名称（30字以内）">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="type" class="col-sm-2 col-xs-3 control-label">需求类型</label>
+                        <input type="hidden" name="type" id="type" value="官网类">
+                        <div class="col-sm-8 col-xs-10">
+                            <ul class="list-inline type">
+                                <li>
+                                    <button type="button" class="btn btn-default btn-primary">官网类</button>
+                                </li>
+                               <li>
+                                   <button type="button" class="btn btn-default">电商类</button>
+                               </li>
+                               <li>
+                                   <button type="button" class="btn btn-default">门店类</button>
+                               </li>
+                               <li>
+                                   <button type="button" class="btn btn-default">工具类</button>
+                               </li>
+                               <li>
+                                   <button type="button" class="btn btn-default">平台类</button>
+                               </li>
+                               <li>
+                                   <button type="button" class="btn btn-default">定制类</button>
+                               </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="budget" class="col-sm-2 col-xs-3 control-label">项目预算</label>
+                        <input type="hidden" name="budget" id="budget" value="5000-1万">
+                        <div class="col-sm-8 col-xs-10">
+                            <ul class="list-inline budget">
+                                <li>
+                                    <button type="button" class="btn btn-default btn-primary">5000-1万</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-default">1-3万</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-default">3-5万</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-default">5万以上</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" name="action" value="demand"/>
+                <div class="row" style="height: 100px;">
+                    <button type="button" class="btn btn-info btn-block btn-lg" onclick="postData()">提交</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="pull-left">
+                <div class="code-img">
+                    <img src="{dede:global.cfg_templeturl/}/Images/code.jpg"/>
+                    <p>扫码关注事业通公众号</p>
+                </div>
+                <ul>
+                    <li><a href="">关于我们</a></li>
+                    <li><a href=""> 商务合作</a></li>
+                    <li><a href="/html/cases" target="_blank">案例欣赏</a></li>
+                    <li><a href="http://wx.51syt.cn/wx/down" target="_blank">APP下载</a></li>
+                    <li><a href="http://wx.51syt.cn/wx/down/cashier">收银台下载</a></li>
+                    <li><a href="/html/job">人才招聘</a></li>
+                </ul>
+            </div>
+            <div class="pull-left pull-left1">
+                <div class="text">
+                    <p class="phone">400-1828-699</p>
+                    <p class="e-text">Win the customers , win the world for you</p>
+                    <p class="c-text">一码揽<span>千</span>客，<span>助</span>您事业通</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="footer-end">
+            <div class="footer-end-content">
+                <span>Copyright 2016-2017</span>
+                <span><a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备17130512号</a></span>
+                <span>Email：syt17@qq.com</span>
+                <span>青浦区徐泾镇华徐公路中国梦谷3号楼4118</span>
+                <span>400-1828-699 </span>
+            </div>
+        </div>
+    </div>
+<script>
+    $("ul.list-inline li button").on("click", function () {
+        $(this).addClass("btn-primary").parent('li').siblings().children("button").removeClass("btn-primary");
+    });
+
+    $("ul.type li button").on("click", function () {
+        var txt = $(this).text();
+        $("input[name = 'type']").val(txt);
+    });
+    $("ul.budget li button").on("click", function () {
+        var txt = $(this).text();
+        $("input[name = 'budget']").val(txt);
+    });
+
+    function postData() {
+        var form = $("#formInfo");
+        if(form.length < 0){alert(form +'：表单不存在。');}
+        var data = form.serializeArray();
+
+
+        if ($("input[name='real_name']").val() === ''){
+            alert("姓名不能为空");
+            $("input[name='real_name']").focus();
+            return;
+        }
+        if ($("input[name='phone']").val() === ''){
+            alert("手机号不能为空");
+            $("input[name='phone']").focus();
+            return;
+        }
+        if ($("input[name='entry_name']").val() === ''){
+            alert("项目名不能为空");
+            $("input[name='entry_name']").focus();
+            return;
+        }
+
+        $.post("/plus/web.php", data, function(res){
+            console.log(res);
+            alert(res.info);
+            if(res.status === 1){
+                window.location.reload();
+            }
+        });
+
+    }
+</script>
+</body>
+</html>

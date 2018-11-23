@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+<title>客户案例</title>
+<link>http://syt.17lsy.com/html/cases/</link>
+<description>客户案例</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 2016-2018 事业通 版权所有 &lt;a href=http://www.dedecms.com target='_blank'&gt;Power by DedeCms&lt;/a&gt;]]></generator>
+<webmaster>desdev@vip.qq.com</webmaster>
+<item>
+    <title><![CDATA[深圳交警支付宝案例分享]]></title>
+    <link>http://syt.17lsy.com/html/cases/2015/0429/23.html</link>
+    <description><![CDATA[实名打通，星级用户快速认证，业务办理轻松搞定！]]></description>
+    <pubDate>2016-12-25</pubDate>
+    <category>客户案例</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[玩转手机，一手掌握口碑KTV]]></title>
+    <link>http://syt.17lsy.com/html/cases/2015/0429/22.html</link>
+    <description><![CDATA[“钱柜”低调回归，谁说我们是怀旧的代名词？]]></description>
+    <pubDate>2016-12-25</pubDate>
+    <category>客户案例</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[扫码点餐案例分享]]></title>
+    <link>http://syt.17lsy.com/html/cases/2015/0429/21.html</link>
+    <description><![CDATA[一个餐厅要配多少服务员？闲时配多少？忙时配多少？招聘服务员有多难？培训一个熟练服务员要多少成本？服务员多久会离职？一个服务员每天要做多少事？服务员请假了怎么办？服]]></description>
+    <pubDate>2016-12-25</pubDate>
+    <category>客户案例</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>代理商后台绑卡流程_事业通-关心您的收银事业</title>
+    <meta name="keywords" content="代理商,后台,绑卡,流程,代理商,后台,绑卡," />
+    <meta name="description" content="代理商后台绑卡流程 先建好层级 添加员工 点击二维码管理 输入卡片 [起 始序列号] [ 终止序列号] 点击 [ 查询] 确定卡的数量 选择级别 ------- 选择员工 -----点击 批量分配员工 注意：" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="copyright" content="Copyright 17syt.cn 版权所有" />
+    
+    <link href="/templets/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/templets/Content/inner.min.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="/templets/Scripts/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="/templets/Scripts/jquery.min.js"></script>
+    <script src="/templets/Scripts/bootstrap.min.js"></script>
+    <script src="/templets/Scripts/inner.min.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="box">
+	    <a href="/" title="事业通-移动支付领导品牌"><img src="/templets/Picture/logo_cases.png" alt="事业通-移动支付领导品牌" /></a>
+        <div class="wechat">
+    	    <img src="/templets/Picture/wechat_code.jpg" alt="扫描关注微信公众账号" class="wechat" /><p>扫一扫微信二维码<i></i></p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/">返回首页</a></li>
+            
+            <li><a href="/html/news/">资讯动态</a></li>
+            
+            <li><a href="/html/cases/">客户案例</a></li>
+            <li class='active'><a href='/html/bangzhu/' style='color:white;'>新手帮助</a></li>
+            <li><a href="/html/job/">招贤纳士</a></li>
+            
+          </ul>
+        </nav>
+    </div>
+    <footer>
+	    移动支付，事业恒通<br /><u>2008 - 2016</u>事业通<br /><a href="http://www.17syt.cn/" target="_blank">广东事业通网络科技有限公司</a>
+    </footer>
+</header>
+    
+    <section class="toolbar">
+    	<a href="/" title="返回首页" class="homelink"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    	<span class="switch glyphicon glyphicon-th-list"></span>
+        <div class="btnList">
+            <div class="link btn-group">
+        	    <a href="/html/bangzhu/" class="btn btn-default">文章列表</a>
+            </div>
+            <div class="link btn-group">
+        	    <a href="" class="btn btn-default"><span class="glyphicon glyphicon-arrow-left"></span>PREV</a>
+            </div>
+            <div class="link btn-group">
+        	    <a href="/html/bangzhu/2016/1226/56.html" class="btn btn-default">NEXT<span class="glyphicon glyphicon-arrow-right"></span></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="artshow content">
+        <div class="box">
+        	<h1>代理商后台绑卡流程</h1>
+            <span class="rel">
+            	事业通<u>•</u>2017-11-01<u>•</u><a href="/html/bangzhu/" target="_blank">新手帮助</a><u>•</u><span class="glyphicon glyphicon-eye-open" title="浏览次数"></span> <script src="/plus/count.php?view=yes&aid=52&mid=1" type='text/javascript' language="javascript"></script>
+            </span>
+            <div class="words">
+                <p>代理商后台绑卡流程
+</p><p>
+
+先建好层级
+</p><p>
+添加员工
+</p>
+<p>
+	<img alt="" src="/uploads/allimg/161226/1-161226151304931.jpg" style="font-family: 微软雅黑; font-size: 15px; line-height: 25.6000003814697px; width: 640px; height: 229px;" />
+</p>
+<p>
+
+点击二维码管理
+
+</p>
+<p>
+	<img data-="" data-fail="0" data-ratio="0.3584905660377358" data-type="png" data-w="1113" src="/uploads/allimg/161226/1-16122615140cV.jpg" style="margin: 0px; padding: 0px; max-width: 100%; height: 382px; box-sizing: border-box !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;" />
+</p>
+<p>
+
+
+
+输入卡片[起始序列号] [终止序列号] 点击[查询]确定卡的数量
+
+</p><p>
+
+
+
+
+     
+选择级别-------选择员工 -----点击[批量分配员工]
+
+</p>
+<p>
+	 <img data-="" data-fail="0" data-ratio="0.5628140703517588" data-type="png" data-w="995" src="/uploads/allimg/161226/1-1612261515251X.jpg" style="margin: 0px; padding: 0px; max-width: 100%; height: 560px; box-sizing: border-box !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;" />
+</p><p style="color:red">
+注意：<img _width="137px" data-="" data-fail="0" data-ratio="0.22549019607843138" data-type="png" data-w="204" src="/uploads/allimg/161226/1-161226151609308.jpg"  />
+</p>
+<p style="color:red">
+这里正常分配时都要打勾,这样卡片才不会重复分配.只有在卡片已经分配过,要再分配时,才会不打勾.
+</p><p>
+上一级可以分配下一级员工,代理商可以分配自己的下一级.
+</p><p style="color:red">
+已经激活了卡片是没有办法再重新分配的,请大家开通前先把卡片分配好。
+</p> 
+            </div>
+            <dl class="tags">
+              <dt>文章关键词<span class="glyphicon glyphicon-tag"></span></dt>
+              
+            </dl>
+            <div class="bdsharebuttonbox">
+            	<a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+            </div>
+        </div>
+        <aside>
+        	<div class="ad"><a href="/" title="事业通，移动支付" target="_blank"><img src="/templets/Picture/ad.jpg" = /></a></div>
+            <div class="caption"><h3>推荐阅读</h3></div>
+            <ul class="items">
+               <li>
+                  <a href="/html/cases/alipay/2015/0429/22.html" target="_blank" class="thumb"><img src="/uploads/161225/timg.jpg" /></a>
+                  <span class="title"><a href="/html/cases/alipay/2015/0429/22.html" target="_blank" title="深圳交警支付宝案例分享">深圳交警支付宝案例分享 ...</a></span>
+                  <span class="rel">1天前<span class="glyphicon glyphicon-eye-open" title="浏览次数"></span>81</span>
+                </li>
+<li>
+                  <a href="/html/bangzhu/2016/1225/52.html" target="_blank" class="thumb"><img src="/uploads/allimg/161226/1-161226151304931-lp.jpg" /></a>
+                  <span class="title"><a href="/html/bangzhu/2016/1225/52.html" target="_blank" title="代理商后台绑卡流程">代理商后台绑卡流程 ...</a></span>
+                  <span class="rel">今日<span class="glyphicon glyphicon-eye-open" title="浏览次数"></span>253</span>
+                </li>
+<li>
+                  <a href="/html/bangzhu/2016/1226/56.html" target="_blank" class="thumb"><img src="/uploads/allimg/161226/1-16122615393N00-lp-lp.jpg" /></a>
+                  <span class="title"><a href="/html/bangzhu/2016/1226/56.html" target="_blank" title="支付宝收款常见问题解决">支付宝收款常见问题解决 ...</a></span>
+                  <span class="rel">今日<span class="glyphicon glyphicon-eye-open" title="浏览次数"></span>174</span>
+                </li>
+<li>
+                  <a href="/html/news/2016/1226/58.html" target="_blank" class="thumb"><img src="/uploads/171101/2-1G101094324528.jpg" /></a>
+                  <span class="title"><a href="/html/news/2016/1226/58.html" target="_blank" title="支付宝“逆天”新功能，">支付宝“逆天”新功能， ...</a></span>
+                  <span class="rel">今日<span class="glyphicon glyphicon-eye-open" title="浏览次数"></span>132</span>
+                </li>
+
+            </ul>
+        </aside>
+    </section>
+    
+    <div class="dock">
+        <ul class="icons">
+        	<li class="up"><i></i></li>
+            <li class="im">
+            	<i></i><p>咨询<br />在线沟通，请点我<a target=blank href=tencent://message/?uin=3111737916&Menu=yes>在线咨询</a></p>
+            </li>
+            <li class="tel">
+            	<i></i><p>咨询热线：<br />400-1828-699</p>
+            </li>
+            <li class="wechat">
+            	<i></i><p><img src="/templets/Picture/wechat_code.jpg" alt="扫描关注微信公众账号" /></p>
+            </li>
+            <li class="down"><i></i></li>
+        </ul>
+        <a class="switch"></a>
+    </div>
+    
+    <script>        
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?a821a161aa4214f5ff5b8ca372960ebb";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+
+        window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "代理商后台绑卡流程", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "32" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+    </script>
+</body>
+</html>
